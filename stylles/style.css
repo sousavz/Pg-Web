@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( to left,#E3FFF800, to right,#E3FFF861);
 }
 .logo{
-    color: rgb(10, 177, 228);
+    color:#89C5CC;
     font-size: 27px;
     font-weight: bold;
+    width: 103px;
+    height: 22px;
+    margin-left: 7px;
 }
 header{
    display: flex;
@@ -16,10 +20,15 @@ header{
 }
 nav ul{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    margin-right: 25px;
 }
 nav ul li{
     list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
 }
 section{
     display: flex;
@@ -27,10 +36,34 @@ section{
     align-items: center;
     padding: 40px;
     margin: auto;
+    margin-top:197 ;
+    margin-left:20px ;
+}
+.imagem{
+    height: 330px;
+    margin-top: 30px;
 }
 h1{
-    font-size:55px ;
+    font-size:49px ;
+    font-weight: 400;
+    line-height: 56px;
 }
 h1 span{
-    color: rgb(0, 204, 255);
+    color:#89C5CC;
+    font-weight: 700;
+}
+button{
+    padding: 10px 18px;
+    background-color: #69B99D;
+    color: white;
+    border: none;
+}
+footer{
+    text-align: center;
+    margin-top: 48px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
