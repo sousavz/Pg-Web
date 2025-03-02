@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    color: rgb(10, 177, 228);
+    font-size: 27px;
+    font-weight: bold;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 70px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+}
+h1{
+    font-size:55px ;
+}
+h1 span{
+    color: rgb(0, 204, 255);
+}
