@@ -26,6 +26,7 @@ nav ul{
 nav ul li{
     list-style: none;
 }
+
 li:hover{
     cursor: pointer;
     font-weight: bold;
@@ -52,11 +53,15 @@ h1 span{
     color:#89C5CC;
     font-weight: 700;
 }
-button{
+#btn{
     padding: 10px 18px;
     background-color: #69B99D;
     color: white;
     border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: green;
 }
 footer{
     text-align: center;
